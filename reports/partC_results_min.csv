@@ -1,0 +1,7 @@
+Dataset,Méthode,Accuracy CV (moy.),Meilleurs paramètres
+Wine,LDA->KNN,0.9888888888888889,"{'knn__n_neighbors': 5, 'knn__weights': 'uniform', 'lda__n_components': 2}"
+Wine,PCA->KNN,0.9774603174603176,"{'knn__n_neighbors': 5, 'knn__weights': 'distance', 'pca__n_components': 5}"
+Wine,Baseline (Scaler+KNN),0.9719047619047618,"{'knn__n_neighbors': 7, 'knn__weights': 'uniform'}"
+Iris,LDA->KNN,0.9866666666666667,"{'knn__n_neighbors': 3, 'knn__weights': 'uniform', 'lda__n_components': 1}"
+Iris,Baseline (Scaler+KNN),0.9733333333333334,"{'knn__n_neighbors': 5, 'knn__weights': 'uniform'}"
+Iris,PCA->KNN,0.9733333333333334,"{'knn__n_neighbors': 5, 'knn__weights': 'uniform', 'pca__n_components': 3}"

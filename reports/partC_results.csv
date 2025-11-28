@@ -1,0 +1,7 @@
+dataset,method,mean_acc,std_acc,best_params
+Wine,LDA->KNN,0.9888888888888889,0.013608276348795441,"{'knn__n_neighbors': 5, 'knn__weights': 'uniform', 'lda__n_components': 2}"
+Wine,PCA->KNN,0.9776190476190475,0.020831783767013237,"{'knn__n_neighbors': 11, 'knn__weights': 'uniform', 'pca__n_components': 10}"
+Wine,Baseline (Scaler+KNN),0.9719047619047618,0.025205629512735514,"{'knn__n_neighbors': 7, 'knn__weights': 'uniform'}"
+Iris,LDA->KNN,0.9866666666666667,0.02666666666666666,"{'knn__n_neighbors': 3, 'knn__weights': 'uniform', 'lda__n_components': 1}"
+Iris,Baseline (Scaler+KNN),0.9733333333333334,0.02494438257849294,"{'knn__n_neighbors': 5, 'knn__weights': 'uniform'}"
+Iris,PCA->KNN,0.9733333333333334,0.02494438257849294,"{'knn__n_neighbors': 5, 'knn__weights': 'uniform', 'pca__n_components': 3}"
